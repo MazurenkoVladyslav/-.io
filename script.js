@@ -1,4 +1,4 @@
 function playSound(filename) {
-    const audio = new Audio(`sounds/${filename}`);
+    const audio = new Audio(`${filename}`);
     audio.play();
 }
